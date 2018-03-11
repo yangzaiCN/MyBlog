@@ -4,11 +4,12 @@ categories:
 - 自动化测试
 tags:
 - appium
+- 源码
 
 ---
 学习一门新技术，在有源码的情况下，最好能够自己编译、调试，这样才能最快的知其所以然，否则还是停留在使用的阶段，得不到质的提升。
 下面来编译appium
-
+<!-- more -->
 #### 准备 ###
 
 - [appium](https://github.com/appium/appium) 源码
@@ -23,6 +24,7 @@ tags:
 
 具体的环境配置可以网上搜索。最后可以使用appium-doctor --dev检查环境是否ok
 
+### 检查环境 ###
 设置好cnpm后可以以全局方式安装appium-doctor. 再用--dev查看环境状态
 > cnpm install -g appium-doctor 
 > appium-doctor --dev
@@ -31,6 +33,7 @@ tags:
 
 这里显示有一项maven没配置好，其实我的maven已经加入到path中，只是没有mvn.bat文件，并不影响。
 
+### 开始安装依赖 ###
 接下来进入源码目录开始编译appium
 > cnpm install
 
@@ -44,6 +47,8 @@ tags:
  ![](https://i.imgur.com/BzMBAQV.png)
 
 这样我们编译appium的工作就完成了。
+
+### webstrom调试 ###
 直接用webstrom打开根目录后，再添加一个node .配置：
 
 ![](https://i.imgur.com/9CcVeuu.png)
