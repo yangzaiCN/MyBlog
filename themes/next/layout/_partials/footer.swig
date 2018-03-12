@@ -23,7 +23,7 @@
 
 {% if theme.footer.powered %}
   <div class="powered-by">{#
-  #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
+  #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://www.kikijie.com">18011593</a>') }}{#
 #}</div>
 {% endif %}
 
