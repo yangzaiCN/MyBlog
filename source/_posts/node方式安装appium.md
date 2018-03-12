@@ -73,7 +73,7 @@ appium-doctor是appium提供的一个检查appium环境的模块，也托管在n
 - android-19是使用uiautomator2的
 - ** 如果我们不打算编译appium源码，也不打算兼容19以下的版本，我们可以不安装android-16跟android-19的版本 以及maven、ant环境 **
 
-
+### 开始安装appium ###
 现在我们尝试用cnpm安装appium试试：
 > cnpm install -g appium
 
