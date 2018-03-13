@@ -352,8 +352,8 @@ han: false
 # Swiftype Search API Key
 #swiftype_key:
 
-# Baidu Analytics ID
-#baidu_analytics:
+#Baidu Analytics ID
+baidu_analytics: 5770eef462a74814708e49566871a9b4
 
 # Duoshuo ShortName
 #duoshuo_shortname:
