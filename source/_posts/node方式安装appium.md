@@ -77,7 +77,7 @@ appium-doctor是appium提供的一个检查appium环境的模块，也托管在n
 现在我们尝试用cnpm安装appium试试：
 > cnpm install -g appium
 
-** 需要注意 **如果下载过程有中断最好先使用cnpm uninstall -g appium卸载原有模块然后从新执行cnpm install -g appium .如果网络比较好几分钟就安装完成，我这大概有十分钟安装完成。
+** 需要注意 **如果下载过程有中断最好先使用npm(不是用cnpm) uninstall -g appium卸载原有模块然后从新执行cnpm install -g appium .如果网络比较好几分钟就安装完成，我这大概有十分钟安装完成。
 安装完成后执行appium命令，如果出现以下内容则安装成功：
 >C:\Users\zhang>appium
 [Appium] Welcome to Appium v1.7.2
