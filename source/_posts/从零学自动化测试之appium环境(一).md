@@ -1,7 +1,7 @@
 ---
-title: node方式安装appium
+title: 从零学自动化测试之appium环境(一)
 categories:
-- 自动化测试
+- 从零学自动化测试
 tags:
 - appium
 
