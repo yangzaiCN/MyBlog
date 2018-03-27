@@ -463,6 +463,7 @@ needmoreshare2:
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 google_site_verification: MSg3cLDuaZGA2z_kK5-_VZ7jR2jVB9EhEgMQUr8STnM
+baidu-site-verification: 6mrUmLWW5B
 
 # Google Analytics
 #google_analytics:
@@ -572,7 +573,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
