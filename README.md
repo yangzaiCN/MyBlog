@@ -1,3 +1,3 @@
 # myblog
-我的博客空间 : http://39.106.15.102
+我的博客空间 : http://www.kikijie.com
 

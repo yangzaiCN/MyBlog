@@ -1,7 +1,7 @@
 ---
-title: 从零学自动化测试之appium编译
+title: appium源码编译
 categories:
-- 从零学自动化测试
+- 自动化测试
 tags:
 - appium
 - 源码

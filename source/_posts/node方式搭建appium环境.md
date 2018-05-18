@@ -1,15 +1,12 @@
 ---
-title: 从零学自动化测试之appium环境(一)
+title: node方式搭建appium环境
 categories:
-- 从零学自动化测试
+- 自动化测试
 tags:
 - appium
 
 ---
-### 说在前面 ###
 
-最近与团队的小伙伴们密谋了一场：从零学自动化测试课程。今天主讲appium，发现很多人还停留在环境这步。小伙伴们强烈要求写文档，所以本篇是课堂记录也是安装文档，希望能满足有需要的小伙伴。
-<!-- more -->
 ### 需要准备的材料 ###
 - java环境（相关教程非常多，这里就不赘述了）
 - android环境
@@ -18,6 +15,8 @@ tags:
 
 ### android环境 ###
 android环境最麻烦的就是sdk了，我建议大家直接下载android studio,安装时会默认下载sdk。反正以后也要分析appium-uiautomator2-server工程，都得用studio，所以这里我们用这种方式安装。如果不想安装studio，可以下载*仅获取命令行工具*[单独的sdk](https://developer.android.com/studio/index.html?hl=zh-cn)但是需要科学上网,然后通过sdk manager命令行下载。
+
+<!-- more -->
 
 下载完成后我们需要配置ANDROID_HOME系统变量，不需要加入到path中。
 
